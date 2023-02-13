@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#Ignore phpStorm settings folder
+.idea
+.idea/*
+
+#Ignore vscode config files
+.vscode
+.vscode/*
+
+# dependencies
+/node_modules
+/dist
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# cp-toolkit translations
+/public/locales/*/kit.json
+/public/locales/*/web_common.json
+
+# files created prior to runtime
+/public/runtime_version.js
+
+# storybook static files
+storybook-static

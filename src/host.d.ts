@@ -1,4 +1,4 @@
 declare module "host/store" {
-  const store: any;
+  const store: Store;
   export default store
 }
